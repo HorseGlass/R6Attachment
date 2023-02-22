@@ -1,4 +1,4 @@
-import { Box, Container, Text, Select, Tab, TabList, TabPanel, TabPanels, Tabs, HStack, Button, useColorMode, Center, VStack, IconButton } from "@chakra-ui/react";
+import { Box, Container, Text, Select, Tab, TabList, TabPanel, TabPanels, Tabs, Button, useColorMode, Center, VStack } from "@chakra-ui/react";
 import { useState } from "react";
 import { Seasons } from "./data";
 import ByWeapon from "./ByWeapon";
@@ -43,7 +43,7 @@ const App = () => {
               Toggle Theme
             </Button>
             <Text>
-              Updated on: 2023. 02. 22 {"("}Operation Solar Raid{")"}
+              Updated on: 2023. 02. 22 {"("}Operation Commanding Force TS{")"}
             </Text>
           </VStack>
         </Center>
